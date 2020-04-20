@@ -3,7 +3,7 @@
 # @Time : 2020/4/20 14:03 
 # @Author : Jovan
 # @File : effective_brackets.py
-# @desc : 括号的有效性， 采用栈的方式来
+# @desc : 括号的有效性,采用栈的方式
 class Solution:
     def isVaild(self, s: str) -> bool:
         d = {'{': '}', '[': ']', '(': ')', '?': '?'}
