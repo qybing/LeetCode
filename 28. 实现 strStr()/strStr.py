@@ -3,7 +3,7 @@
 # @Time : 2020/4/22 19:40 
 # @Author : Jovan
 # @File : strStr.py
-# @desc :
+# @desc : 刷题
 def strStr(haystack, needle):
     exist = -1
     if needle in haystack:
