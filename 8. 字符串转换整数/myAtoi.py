@@ -82,5 +82,9 @@ def myAtoi(str: str) -> int:
     return 0
 
 
-s = "-91283472332"
-print(myAtoi(s))
+def myAtoi1(s):
+    return max(min(int(*re.findall('^[\+\-]?\d+', s.strip())), 2 ** 31 - 1), -2 ** 31)
+
+
+s = "91283472332 word"
+print(myAtoi1(s))
