@@ -65,4 +65,4 @@ node3.next = node4
 
 node5.next = node6
 node6.next = node7
-mergeTwoLists(node1, node5)
+mergeTwoLists1(node1, node5)
