@@ -29,4 +29,4 @@ def singleNumber_1(nums):
     return ret
 
 nums = [4,1,2,1,2]
-print(singleNumber_1(nums))
+print(singleNumber(nums))
