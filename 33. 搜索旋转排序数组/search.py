@@ -33,10 +33,12 @@ def search2(nums, target):
         mid = (right + left) / 2
         if nums[mid] == target:
             return mid
-        elif nums[left] < nums[mid]:
-            pass
+        elif nums[mid] > nums[right]:
+            if nums[mid] < nums[target] and nums[left] < nums[target] < nums[mid]:
+                pass
 
 
 nums = [4, 5, 6, 7, 0, 1, 2]
 target = 0
-search(nums, target)
+# search(nums, target)
+print(min(nums))
