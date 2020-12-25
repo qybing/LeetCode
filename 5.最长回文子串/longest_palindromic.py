@@ -10,8 +10,8 @@ class Solution(object):
         if len(s) < 2:
             return s
         for i in range(len(s)):
-            self.__find_palindrome(s, i, i) #奇回文
-            self.__find_palindrome(s, i, i+1) #偶回文
+            self.__find_palindrome(s, i, i)
+            self.__find_palindrome(s, i, i+1)
         return self.retstr
 
 
